@@ -1,2 +1,0 @@
-﻿def new_string(symbol, count):
-    return symbol * count

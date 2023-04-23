@@ -6,6 +6,7 @@ def quicksort(array):
         pivot = array[0]
         less = [i for i in array[1:] if i <= pivot]
         greater = [i for i in array[1:] if i > pivot]
+        print(f'pivot: {pivot}, less: {less}, greater: {greater}')
         return quicksort(less) + [pivot] + quicksort(greater)
     
-print(quicksort([10, 5, 2, 3]))
+print(quicksort([10, 15, 2, 17, 3]))
