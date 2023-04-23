@@ -2,6 +2,12 @@
     summa = 0
     for i in range(1, n + 1):
         summa += i
-    print(summa)
+    return summa
+
+    #print(summa)
+    
+# n = int(input('Введи число, дружок: ')) # 5
+# sumNumbers(n) # 15
+
 n = int(input('Введи число, дружок: ')) # 5
-sumNumbers(n) # 15
+print(sumNumbers(n)) # 15
